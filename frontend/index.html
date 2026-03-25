@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AutoCars — Quality Pre-Owned Vehicles</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg: #0d0f12;
+      --surface: #151820;
+      --card: #1a1e28;
+      --border: #252a38;
+      --accent: #e8401c;
+      --accent2: #f57c00;
+      --text: #e8eaf0;
+      --muted: #6b7280;
+      --badge-bg: #1f2535;
+      --radius: 6px;
+    }
+
+    body {
+      font-family: 'Barlow', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .logo {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 1.6rem;
+      letter-spacing: 0.04em;
+      color: var(--text);
+    }
+
+    .logo span {
+      color: var(--accent);
+    }
+
+    .header-sub {
+      font-size: 0.75rem;
+      color: var(--muted);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    /* ── LAYOUT ── */
+    .shell {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    /* ── TOOLBAR ── */
+    .toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.75rem;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .toolbar-left {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .result-count {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .result-count strong {
+      color: var(--text);
+    }
+
+    .filter-bar {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    select,
+    .filter-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 0.45rem 0.9rem;
+      border-radius: var(--radius);
+      font-family: 'Barlow', sans-serif;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: border-color 0.15s;
+    }
+
+    select:hover,
+    .filter-btn:hover {
+      border-color: var(--accent);
+    }
+
+    select option {
+      background: var(--surface);
+    }
+
+    /* ── GRID ── */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+      gap: 1.25rem;
+    }
+
+    /* ── CARD ── */
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.18s, border-color 0.18s, box-shadow 0.18s;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: var(--accent);
+      box-shadow: 0 8px 24px rgba(232, 64, 28, 0.12);
+    }
+
+    .card-img {
+      position: relative;
+      height: 180px;
+      overflow: hidden;
+      background: #111318;
+    }
+
+    .card-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s;
+    }
+
+    .card:hover .card-img img {
+      transform: scale(1.04);
+    }
+
+    .badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: var(--accent);
+      color: #fff;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border-radius: 3px;
+    }
+
+    .badge.used {
+      background: #2563eb;
+    }
+
+    .badge.demo {
+      background: #7c3aed;
+    }
+
+    .badge.finance {
+      background: #059669;
+    }
+
+    .img-count {
+      position: absolute;
+      bottom: 8px;
+      right: 8px;
+      background: rgba(0, 0, 0, 0.65);
+      color: #ccc;
+      font-size: 0.72rem;
+      padding: 2px 7px;
+      border-radius: 3px;
+    }
+
+    .card-body {
+      padding: 1rem 1.1rem 1.1rem;
+    }
+
+    .card-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.18rem;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 0.25rem;
+      color: var(--text);
+    }
+
+    .card-sub {
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-bottom: 0.85rem;
+    }
+
+    .card-specs {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.9rem;
+    }
+
+    .spec-tag {
+      background: var(--badge-bg);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.72rem;
+      padding: 3px 8px;
+      border-radius: 3px;
+      font-weight: 500;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+
+    .price {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.55rem;
+      font-weight: 800;
+      color: var(--accent);
+      line-height: 1;
+    }
+
+    .price-note {
+      font-size: 0.7rem;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .dealer {
+      font-size: 0.72rem;
+      color: var(--muted);
+      text-align: right;
+      max-width: 130px;
+      line-height: 1.4;
+    }
+
+    .dealer strong {
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    /* ── PAGINATION ── */
+    .pagination {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      margin-top: 2.5rem;
+    }
+
+    .page-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      width: 38px;
+      height: 38px;
+      border-radius: var(--radius);
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s, color 0.15s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .page-btn:hover:not(:disabled) {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .page-btn.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+
+    .page-btn:disabled {
+      opacity: 0.3;
+      cursor: default;
+    }
+
+    .page-ellipsis {
+      color: var(--muted);
+      font-size: 1rem;
+      padding: 0 4px;
+    }
+
+    /* ── LOADING ── */
+    .loading-overlay {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 5rem 0;
+      gap: 1rem;
+    }
+
+    .spinner {
+      width: 36px;
+      height: 36px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    /* ── LISTING ID (for scraper targeting) ── */
+    [data-listing-id] {}
+
+    /* ── FADE TRANSITION ── */
+    .fade-enter-active,
+    .fade-leave-active {
+      transition: opacity 0.2s;
+    }
+
+    .fade-enter-from,
+    .fade-leave-to {
+      opacity: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <header>
+      <div>
+        <div class="logo">AUTO<span>CARS</span></div>
+        <div class="header-sub">Pre-Owned Specialists</div>
+      </div>
+      <div class="filter-bar">
+        <select v-model="filters.make" @change="resetPage">
+          <option value="">All Makes</option>
+          <option v-for="m in makes" :key="m" :value="m">{{ m }}</option>
+        </select>
+        <select v-model="filters.transmission" @change="resetPage">
+          <option value="">All Transmissions</option>
+          <option value="Automatic">Automatic</option>
+          <option value="Manual">Manual</option>
+        </select>
+        <select v-model="filters.fuel" @change="resetPage">
+          <option value="">All Fuel Types</option>
+          <option value="Petrol">Petrol</option>
+          <option value="Diesel">Diesel</option>
+          <option value="Hybrid">Hybrid</option>
+          <option value="Electric">Electric</option>
+        </select>
+        <select v-model="sortBy" @change="resetPage">
+          <option value="newest">Newest First</option>
+          <option value="price_asc">Price: Low → High</option>
+          <option value="price_desc">Price: High → Low</option>
+          <option value="mileage_asc">Lowest Mileage</option>
+        </select>
+      </div>
+    </header>
+
+    <div class="shell">
+      <div class="toolbar">
+        <div class="toolbar-left">
+          <div class="result-count">
+            <strong>{{ filteredListings.length }}</strong> vehicles found
+            <template v-if="filters.make"> · {{ filters.make }}</template>
+          </div>
+        </div>
+        <div style="font-size:0.8rem;color:var(--muted)">
+          Page {{ currentPage }} of {{ totalPages }}
+        </div>
+      </div>
+
+      <transition name="fade" mode="out-in">
+        <div v-if="loading" class="loading-overlay" key="loader">
+          <div class="spinner"></div>
+          <div style="color:var(--muted);font-size:0.85rem">Loading listings…</div>
+        </div>
+
+        <div v-else class="grid" key="grid">
+          <div v-for="car in paginatedListings" :key="car.id" class="card" :data-listing-id="car.id"
+            :data-make="car.make" :data-model="car.model" :data-year="car.year" :data-price="car.price"
+            :data-mileage="car.mileage" :data-transmission="car.transmission" :data-fuel="car.fuel"
+            :data-color="car.color" :data-dealer="car.dealer" :data-location="car.location" :data-listed="car.listed">
+            <div class="card-img">
+              <img :src="car.images[0]" :alt="car.make + ' ' + car.model" loading="lazy" />
+              <span class="badge" :class="car.condition.toLowerCase()">{{ car.condition }}</span>
+              <span class="img-count">📷 {{ car.images.length }}</span>
+            </div>
+            <div class="card-body">
+              <div class="card-title">{{ car.year }} {{ car.make }} {{ car.model }}</div>
+              <div class="card-sub">{{ car.variant }} · {{ car.color }}</div>
+              <div class="card-specs">
+                <span class="spec-tag">{{ car.mileage.toLocaleString() }} km</span>
+                <span class="spec-tag">{{ car.transmission }}</span>
+                <span class="spec-tag">{{ car.fuel }}</span>
+                <span class="spec-tag">{{ car.engine }}</span>
+              </div>
+              <div class="card-footer">
+                <div>
+                  <div class="price">R {{ car.price.toLocaleString() }}</div>
+                  <div class="price-note">Listed {{ car.listed }}</div>
+                </div>
+                <div class="dealer">
+                  <strong>{{ car.dealer }}</strong><br />{{ car.location }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </transition>
+
+      <!-- PAGINATION -->
+      <div class="pagination" v-if="totalPages > 1">
+        <button class="page-btn" @click="goToPage(currentPage - 1)" :disabled="currentPage === 1">‹</button>
+
+        <template v-for="p in paginationRange" :key="p">
+          <span v-if="p === '...'" class="page-ellipsis">…</span>
+          <button v-else class="page-btn" :class="{ active: p === currentPage }" @click="goToPage(p)">{{ p }}</button>
+        </template>
+
+        <button class="page-btn" @click="goToPage(currentPage + 1)" :disabled="currentPage === totalPages">›</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const { createApp, ref, computed, watch } = Vue;
+
+    // ── DATA GENERATION ──────────────────────────────────────────────────────────
+    const MAKES = ['Toyota', 'BMW', 'Mercedes-Benz', 'Volkswagen', 'Ford', 'Audi', 'Honda', 'Hyundai', 'Kia', 'Nissan', 'Mazda', 'Volvo', 'Porsche', 'Land Rover', 'Jeep'];
+    const MODELS = {
+      Toyota: ['Hilux', 'Fortuner', 'Corolla', 'RAV4', 'Yaris', 'Land Cruiser', 'Camry'],
+      BMW: ['3 Series', '5 Series', 'X3', 'X5', '1 Series', '7 Series', 'M3'],
+      'Mercedes-Benz': ['C-Class', 'E-Class', 'GLC', 'A-Class', 'S-Class', 'GLE', 'CLA'],
+      Volkswagen: ['Golf', 'Polo', 'Tiguan', 'Passat', 'T-Roc', 'Touareg', 'Up!'],
+      Ford: ['Ranger', 'Fiesta', 'Focus', 'Puma', 'Kuga', 'Mustang', 'EcoSport'],
+      Audi: ['A3', 'A4', 'Q3', 'Q5', 'A6', 'TT', 'e-tron'],
+      Honda: ['Civic', 'Jazz', 'CR-V', 'HR-V', 'Accord', 'ZR-V'],
+      Hyundai: ['Tucson', 'i20', 'Creta', 'Elantra', 'Santa Fe', 'Venue'],
+      Kia: ['Sportage', 'Picanto', 'Sorento', 'Seltos', 'EV6', 'Carnival'],
+      Nissan: ['Navara', 'X-Trail', 'Micra', 'Qashqai', 'Leaf', 'Juke'],
+      Mazda: ['CX-5', 'Mazda3', 'CX-30', 'MX-5', 'CX-60'],
+      Volvo: ['XC40', 'XC60', 'V40', 'S60', 'C40'],
+      Porsche: ['Cayenne', 'Macan', '911', 'Panamera', 'Taycan'],
+      'Land Rover': ['Defender', 'Discovery', 'Range Rover', 'Freelander'],
+      Jeep: ['Wrangler', 'Cherokee', 'Compass', 'Renegade'],
+    };
+    const COLORS = ['Midnight Black', 'Pearl White', 'Graphite Grey', 'Racing Red', 'Ocean Blue', 'Desert Sand', 'Forest Green', 'Burnt Orange', 'Silver Metallic', 'Champagne Gold'];
+    const FUEL = ['Petrol', 'Petrol', 'Petrol', 'Diesel', 'Diesel', 'Hybrid', 'Electric'];
+    const TRANS = ['Automatic', 'Automatic', 'Automatic', 'Manual', 'Manual'];
+    const ENGINES = ['1.0T', '1.4T', '1.5T', '2.0T', '2.0D', '2.4i', '3.0T', '3.5D', '4.0V8', 'Electric'];
+    const CONDITIONS = ['Used', 'Used', 'Used', 'Used', 'Demo', 'Finance'];
+    const DEALERS = ['AutoNation Sandton', 'DriveZone Motors', 'PremiumWheels SA', 'FastLane Cars', 'CarHub Rosebank', 'The Car Emporium', 'Wheels & Deals', 'TopGear Motors', 'City AutoHouse', 'Elite Drive'];
+    const LOCATIONS = ['Sandton, GP', 'Rosebank, GP', 'Midrand, GP', 'Centurion, GP', 'Cape Town, WC', 'Durban, KZN', 'Pretoria, GP', 'Roodepoort, GP', 'Boksburg, GP', 'Randburg, GP'];
+
+    // Deterministic pseudo-random seeded on index
+    function seeded(i, offset = 0) {
+      const x = Math.sin(i * 9301 + offset * 49297 + 233) * 93;
+      return x - Math.floor(x);
+    }
+    function pickFrom(arr, i, offset = 0) {
+      return arr[Math.floor(seeded(i, offset) * arr.length)];
+    }
+
+    function generateListings() {
+      const listings = [];
+      const baseDate = new Date('2026-03-20');
+      for (let i = 0; i < 120; i++) {
+        const make = pickFrom(MAKES, i, 0);
+        const model = pickFrom(MODELS[make], i, 1);
+        const year = 2016 + Math.floor(seeded(i, 2) * 10);
+        const price = Math.round((80000 + seeded(i, 3) * 920000) / 1000) * 1000;
+        const mileage = Math.round((3000 + seeded(i, 4) * 197000) / 100) * 100;
+        const dayOffset = Math.floor(seeded(i, 5) * 60);
+        const listed = new Date(baseDate - dayOffset * 86400000).toISOString().split('T')[0];
+        const imgSeed = 100 + (i % 30);
+        listings.push({
+          id: `AC-${String(2024100 + i).padStart(7, '0')}`,
+          make, model, year, price, mileage, listed,
+          variant: `${pickFrom(ENGINES, i, 6)} ${pickFrom(TRANS, i, 7).slice(0, 4)}`,
+          engine: pickFrom(ENGINES, i, 6),
+          transmission: pickFrom(TRANS, i, 7),
+          fuel: pickFrom(FUEL, i, 8),
+          color: pickFrom(COLORS, i, 9),
+          condition: pickFrom(CONDITIONS, i, 10),
+          dealer: pickFrom(DEALERS, i, 11),
+          location: pickFrom(LOCATIONS, i, 12),
+          images: [
+            `https://picsum.photos/seed/${imgSeed}/600/400`,
+            `https://picsum.photos/seed/${imgSeed + 1}/600/400`,
+            `https://picsum.photos/seed/${imgSeed + 2}/600/400`,
+          ]
+        });
+      }
+      return listings;
+    }
+
+    const ALL_LISTINGS = generateListings();
+    const PER_PAGE = 12;
+
+    // ── APP ───────────────────────────────────────────────────────────────────────
+    createApp({
+      setup() {
+        const listings = ref(ALL_LISTINGS);
+        const currentPage = ref(1);
+        const loading = ref(false);
+        const sortBy = ref('newest');
+        const filters = ref({ make: '', transmission: '', fuel: '' });
+
+        const makes = computed(() => [...new Set(ALL_LISTINGS.map(c => c.make))].sort());
+
+        const filteredListings = computed(() => {
+          let result = [...listings.value];
+          if (filters.value.make) result = result.filter(c => c.make === filters.value.make);
+          if (filters.value.transmission) result = result.filter(c => c.transmission === filters.value.transmission);
+          if (filters.value.fuel) result = result.filter(c => c.fuel === filters.value.fuel);
+
+          if (sortBy.value === 'price_asc') result.sort((a, b) => a.price - b.price);
+          else if (sortBy.value === 'price_desc') result.sort((a, b) => b.price - a.price);
+          else if (sortBy.value === 'mileage_asc') result.sort((a, b) => a.mileage - b.mileage);
+          else result.sort((a, b) => b.listed.localeCompare(a.listed));
+
+          return result;
+        });
+
+        const totalPages = computed(() => Math.ceil(filteredListings.value.length / PER_PAGE));
+
+        const paginatedListings = computed(() => {
+          const start = (currentPage.value - 1) * PER_PAGE;
+          return filteredListings.value.slice(start, start + PER_PAGE);
+        });
+
+        const paginationRange = computed(() => {
+          const total = totalPages.value;
+          const current = currentPage.value;
+          const delta = 2;
+          const range = [];
+          for (let i = Math.max(2, current - delta); i <= Math.min(total - 1, current + delta); i++) range.push(i);
+          if (current - delta > 2) range.unshift('...');
+          if (current + delta < total - 1) range.push('...');
+          range.unshift(1);
+          if (total > 1) range.push(total);
+          return range;
+        });
+
+        function resetPage() { currentPage.value = 1; }
+
+        function goToPage(p) {
+          if (p < 1 || p > totalPages.value) return;
+          loading.value = true;
+          setTimeout(() => {
+            currentPage.value = p;
+            loading.value = false;
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }, 280); // simulates async fetch — scraper must wait for DOM
+        }
+
+        return {
+          listings, currentPage, loading, sortBy, filters,
+          makes, filteredListings, totalPages, paginatedListings, paginationRange,
+          resetPage, goToPage,
+        };
+      }
+    }).mount('#app');
+  </script>
+</body>
+
+</html>
