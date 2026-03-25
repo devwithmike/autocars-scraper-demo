@@ -1,0 +1,2162 @@
+[
+  {
+    "id": "AC-2024172",
+    "make": "BMW",
+    "model": "X3",
+    "year": 2021,
+    "price": 795000,
+    "mileage": 112200,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Ocean Blue",
+    "dealer": "PremiumWheels SA",
+    "location": "Pretoria, GP",
+    "listed": "2026-03-20",
+    "images": [
+      "https://picsum.photos/seed/112/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:34.760576+00:00"
+  },
+  {
+    "id": "AC-2024109",
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "year": 2016,
+    "price": 650000,
+    "mileage": 43000,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Desert Sand",
+    "dealer": "City AutoHouse",
+    "location": "Midrand, GP",
+    "listed": "2026-03-19",
+    "images": [
+      "https://picsum.photos/seed/109/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:34.838214+00:00"
+  },
+  {
+    "id": "AC-2024117",
+    "make": "Honda",
+    "model": "Accord",
+    "year": 2016,
+    "price": 684000,
+    "mileage": 31200,
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "color": "Burnt Orange",
+    "dealer": "City AutoHouse",
+    "location": "Centurion, GP",
+    "listed": "2026-03-19",
+    "images": [
+      "https://picsum.photos/seed/117/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:34.919066+00:00"
+  },
+  {
+    "id": "AC-2024174",
+    "make": "Mazda",
+    "model": "CX-30",
+    "year": 2022,
+    "price": 717000,
+    "mileage": 61100,
+    "transmission": "Manual",
+    "fuel": "Diesel",
+    "color": "Midnight Black",
+    "dealer": "CarHub Rosebank",
+    "location": "Centurion, GP",
+    "listed": "2026-03-19",
+    "images": [
+      "https://picsum.photos/seed/114/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:34.997927+00:00"
+  },
+  {
+    "id": "AC-2024203",
+    "make": "Mazda",
+    "model": "Mazda3",
+    "year": 2024,
+    "price": 385000,
+    "mileage": 142800,
+    "transmission": "Automatic",
+    "fuel": "Electric",
+    "color": "Midnight Black",
+    "dealer": "Wheels & Deals",
+    "location": "Midrand, GP",
+    "listed": "2026-03-18",
+    "images": [
+      "https://picsum.photos/seed/113/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:35.086557+00:00"
+  },
+  {
+    "id": "AC-2024209",
+    "make": "Jeep",
+    "model": "Wrangler",
+    "year": 2023,
+    "price": 497000,
+    "mileage": 175200,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Ocean Blue",
+    "dealer": "PremiumWheels SA",
+    "location": "Cape Town, WC",
+    "listed": "2026-03-18",
+    "images": [
+      "https://picsum.photos/seed/119/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:35.177040+00:00"
+  },
+  {
+    "id": "AC-2024110",
+    "make": "Toyota",
+    "model": "Land Cruiser",
+    "year": 2024,
+    "price": 134000,
+    "mileage": 197800,
+    "transmission": "Manual",
+    "fuel": "Electric",
+    "color": "Midnight Black",
+    "dealer": "Elite Drive",
+    "location": "Midrand, GP",
+    "listed": "2026-03-17",
+    "images": [
+      "https://picsum.photos/seed/110/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:35.269125+00:00"
+  },
+  {
+    "id": "AC-2024124",
+    "make": "Nissan",
+    "model": "X-Trail",
+    "year": 2016,
+    "price": 199000,
+    "mileage": 132900,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Desert Sand",
+    "dealer": "DriveZone Motors",
+    "location": "Randburg, GP",
+    "listed": "2026-03-17",
+    "images": [
+      "https://picsum.photos/seed/124/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:35.331934+00:00"
+  },
+  {
+    "id": "AC-2024132",
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "year": 2016,
+    "price": 269000,
+    "mileage": 122300,
+    "transmission": "Automatic",
+    "fuel": "Hybrid",
+    "color": "Graphite Grey",
+    "dealer": "TopGear Motors",
+    "location": "Roodepoort, GP",
+    "listed": "2026-03-16",
+    "images": [
+      "https://picsum.photos/seed/102/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:35.395579+00:00"
+  },
+  {
+    "id": "AC-2024159",
+    "make": "Jeep",
+    "model": "Wrangler",
+    "year": 2020,
+    "price": 161000,
+    "mileage": 123300,
+    "transmission": "Manual",
+    "fuel": "Hybrid",
+    "color": "Champagne Gold",
+    "dealer": "Wheels & Deals",
+    "location": "Boksburg, GP",
+    "listed": "2026-03-16",
+    "images": [
+      "https://picsum.photos/seed/129/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:35.467259+00:00"
+  },
+  {
+    "id": "AC-2024208",
+    "make": "Jeep",
+    "model": "Cherokee",
+    "year": 2018,
+    "price": 991000,
+    "mileage": 127700,
+    "transmission": "Automatic",
+    "fuel": "Hybrid",
+    "color": "Champagne Gold",
+    "dealer": "Wheels & Deals",
+    "location": "Randburg, GP",
+    "listed": "2026-03-16",
+    "images": [
+      "https://picsum.photos/seed/118/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:35.544187+00:00"
+  },
+  {
+    "id": "AC-2024157",
+    "make": "Hyundai",
+    "model": "Elantra",
+    "year": 2021,
+    "price": 127000,
+    "mileage": 36100,
+    "transmission": "Automatic",
+    "fuel": "Hybrid",
+    "color": "Ocean Blue",
+    "dealer": "FastLane Cars",
+    "location": "Cape Town, WC",
+    "listed": "2026-03-15",
+    "images": [
+      "https://picsum.photos/seed/127/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:35.631584+00:00"
+  },
+  {
+    "id": "AC-2024215",
+    "make": "Hyundai",
+    "model": "Santa Fe",
+    "year": 2017,
+    "price": 500000,
+    "mileage": 106700,
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "color": "Burnt Orange",
+    "dealer": "DriveZone Motors",
+    "location": "Pretoria, GP",
+    "listed": "2026-03-14",
+    "images": [
+      "https://picsum.photos/seed/125/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:37.633644+00:00"
+  },
+  {
+    "id": "AC-2024216",
+    "make": "Volkswagen",
+    "model": "Polo",
+    "year": 2018,
+    "price": 872000,
+    "mileage": 140400,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Pearl White",
+    "dealer": "FastLane Cars",
+    "location": "Cape Town, WC",
+    "listed": "2026-03-14",
+    "images": [
+      "https://picsum.photos/seed/126/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:37.708025+00:00"
+  },
+  {
+    "id": "AC-2024103",
+    "make": "Audi",
+    "model": "e-tron",
+    "year": 2021,
+    "price": 914000,
+    "mileage": 90200,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Ocean Blue",
+    "dealer": "City AutoHouse",
+    "location": "Durban, KZN",
+    "listed": "2026-03-13",
+    "images": [
+      "https://picsum.photos/seed/103/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:37.793443+00:00"
+  },
+  {
+    "id": "AC-2024121",
+    "make": "Mercedes-Benz",
+    "model": "CLA",
+    "year": 2020,
+    "price": 307000,
+    "mileage": 138900,
+    "transmission": "Manual",
+    "fuel": "Hybrid",
+    "color": "Ocean Blue",
+    "dealer": "AutoNation Sandton",
+    "location": "Durban, KZN",
+    "listed": "2026-03-13",
+    "images": [
+      "https://picsum.photos/seed/121/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:37.862522+00:00"
+  },
+  {
+    "id": "AC-2024161",
+    "make": "Jeep",
+    "model": "Renegade",
+    "year": 2023,
+    "price": 208000,
+    "mileage": 33800,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Racing Red",
+    "dealer": "Elite Drive",
+    "location": "Sandton, GP",
+    "listed": "2026-03-13",
+    "images": [
+      "https://picsum.photos/seed/101/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:37.936268+00:00"
+  },
+  {
+    "id": "AC-2024165",
+    "make": "Kia",
+    "model": "Sorento",
+    "year": 2022,
+    "price": 865000,
+    "mileage": 193200,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Burnt Orange",
+    "dealer": "City AutoHouse",
+    "location": "Centurion, GP",
+    "listed": "2026-03-13",
+    "images": [
+      "https://picsum.photos/seed/105/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:38.003431+00:00"
+  },
+  {
+    "id": "AC-2024118",
+    "make": "Kia",
+    "model": "Sorento",
+    "year": 2023,
+    "price": 168000,
+    "mileage": 111800,
+    "transmission": "Manual",
+    "fuel": "Diesel",
+    "color": "Forest Green",
+    "dealer": "PremiumWheels SA",
+    "location": "Boksburg, GP",
+    "listed": "2026-03-12",
+    "images": [
+      "https://picsum.photos/seed/118/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:38.076797+00:00"
+  },
+  {
+    "id": "AC-2024153",
+    "make": "Toyota",
+    "model": "Hilux",
+    "year": 2022,
+    "price": 620000,
+    "mileage": 23700,
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "color": "Pearl White",
+    "dealer": "PremiumWheels SA",
+    "location": "Randburg, GP",
+    "listed": "2026-03-11",
+    "images": [
+      "https://picsum.photos/seed/123/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:38.160624+00:00"
+  },
+  {
+    "id": "AC-2024168",
+    "make": "Land Rover",
+    "model": "Defender",
+    "year": 2022,
+    "price": 445000,
+    "mileage": 181800,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Champagne Gold",
+    "dealer": "City AutoHouse",
+    "location": "Durban, KZN",
+    "listed": "2026-03-11",
+    "images": [
+      "https://picsum.photos/seed/108/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:38.237397+00:00"
+  },
+  {
+    "id": "AC-2024197",
+    "make": "Kia",
+    "model": "Sorento",
+    "year": 2016,
+    "price": 575000,
+    "mileage": 54800,
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "color": "Graphite Grey",
+    "dealer": "City AutoHouse",
+    "location": "Durban, KZN",
+    "listed": "2026-03-11",
+    "images": [
+      "https://picsum.photos/seed/107/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:38.319256+00:00"
+  },
+  {
+    "id": "AC-2024160",
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "year": 2018,
+    "price": 369000,
+    "mileage": 80300,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Midnight Black",
+    "dealer": "The Car Emporium",
+    "location": "Sandton, GP",
+    "listed": "2026-03-10",
+    "images": [
+      "https://picsum.photos/seed/100/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:38.396913+00:00"
+  },
+  {
+    "id": "AC-2024210",
+    "make": "Volkswagen",
+    "model": "Touareg",
+    "year": 2022,
+    "price": 722000,
+    "mileage": 166100,
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "color": "Midnight Black",
+    "dealer": "DriveZone Motors",
+    "location": "Roodepoort, GP",
+    "listed": "2026-03-09",
+    "images": [
+      "https://picsum.photos/seed/120/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:38.467729+00:00"
+  },
+  {
+    "id": "AC-2024201",
+    "make": "Nissan",
+    "model": "Juke",
+    "year": 2025,
+    "price": 122000,
+    "mileage": 141400,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Pearl White",
+    "dealer": "Elite Drive",
+    "location": "Pretoria, GP",
+    "listed": "2026-03-08",
+    "images": [
+      "https://picsum.photos/seed/111/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:40.938026+00:00"
+  },
+  {
+    "id": "AC-2024202",
+    "make": "Ford",
+    "model": "Focus",
+    "year": 2022,
+    "price": 443000,
+    "mileage": 194100,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Ocean Blue",
+    "dealer": "FastLane Cars",
+    "location": "Boksburg, GP",
+    "listed": "2026-03-08",
+    "images": [
+      "https://picsum.photos/seed/112/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:41.005189+00:00"
+  },
+  {
+    "id": "AC-2024115",
+    "make": "Nissan",
+    "model": "Leaf",
+    "year": 2016,
+    "price": 191000,
+    "mileage": 76300,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Burnt Orange",
+    "dealer": "CarHub Rosebank",
+    "location": "Sandton, GP",
+    "listed": "2026-03-07",
+    "images": [
+      "https://picsum.photos/seed/115/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:41.071785+00:00"
+  },
+  {
+    "id": "AC-2024154",
+    "make": "BMW",
+    "model": "1 Series",
+    "year": 2018,
+    "price": 682000,
+    "mileage": 86400,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Forest Green",
+    "dealer": "FastLane Cars",
+    "location": "Centurion, GP",
+    "listed": "2026-03-07",
+    "images": [
+      "https://picsum.photos/seed/124/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:41.141582+00:00"
+  },
+  {
+    "id": "AC-2024176",
+    "make": "Land Rover",
+    "model": "Defender",
+    "year": 2020,
+    "price": 791000,
+    "mileage": 56800,
+    "transmission": "Manual",
+    "fuel": "Electric",
+    "color": "Champagne Gold",
+    "dealer": "FastLane Cars",
+    "location": "Sandton, GP",
+    "listed": "2026-03-07",
+    "images": [
+      "https://picsum.photos/seed/116/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:41.222639+00:00"
+  },
+  {
+    "id": "AC-2024204",
+    "make": "BMW",
+    "model": "1 Series",
+    "year": 2024,
+    "price": 337000,
+    "mileage": 31700,
+    "transmission": "Manual",
+    "fuel": "Diesel",
+    "color": "Graphite Grey",
+    "dealer": "TopGear Motors",
+    "location": "Boksburg, GP",
+    "listed": "2026-03-06",
+    "images": [
+      "https://picsum.photos/seed/114/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:41.294738+00:00"
+  },
+  {
+    "id": "AC-2024129",
+    "make": "Hyundai",
+    "model": "Creta",
+    "year": 2022,
+    "price": 650000,
+    "mileage": 78600,
+    "transmission": "Manual",
+    "fuel": "Hybrid",
+    "color": "Pearl White",
+    "dealer": "City AutoHouse",
+    "location": "Midrand, GP",
+    "listed": "2026-03-05",
+    "images": [
+      "https://picsum.photos/seed/129/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:41.363917+00:00"
+  },
+  {
+    "id": "AC-2024136",
+    "make": "Nissan",
+    "model": "Navara",
+    "year": 2022,
+    "price": 697000,
+    "mileage": 154600,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Silver Metallic",
+    "dealer": "PremiumWheels SA",
+    "location": "Pretoria, GP",
+    "listed": "2026-03-05",
+    "images": [
+      "https://picsum.photos/seed/106/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:41.451666+00:00"
+  },
+  {
+    "id": "AC-2024162",
+    "make": "Audi",
+    "model": "A3",
+    "year": 2017,
+    "price": 901000,
+    "mileage": 17500,
+    "transmission": "Manual",
+    "fuel": "Hybrid",
+    "color": "Pearl White",
+    "dealer": "City AutoHouse",
+    "location": "Randburg, GP",
+    "listed": "2026-03-04",
+    "images": [
+      "https://picsum.photos/seed/102/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:41.523340+00:00"
+  },
+  {
+    "id": "AC-2024179",
+    "make": "Audi",
+    "model": "Q3",
+    "year": 2025,
+    "price": 122000,
+    "mileage": 147500,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Desert Sand",
+    "dealer": "CarHub Rosebank",
+    "location": "Randburg, GP",
+    "listed": "2026-03-04",
+    "images": [
+      "https://picsum.photos/seed/119/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:41.599376+00:00"
+  },
+  {
+    "id": "AC-2024193",
+    "make": "Jeep",
+    "model": "Renegade",
+    "year": 2025,
+    "price": 979000,
+    "mileage": 80400,
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "color": "Midnight Black",
+    "dealer": "FastLane Cars",
+    "location": "Pretoria, GP",
+    "listed": "2026-03-04",
+    "images": [
+      "https://picsum.photos/seed/103/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:41.674138+00:00"
+  },
+  {
+    "id": "AC-2024104",
+    "make": "Jeep",
+    "model": "Cherokee",
+    "year": 2021,
+    "price": 202000,
+    "mileage": 169600,
+    "transmission": "Manual",
+    "fuel": "Diesel",
+    "color": "Midnight Black",
+    "dealer": "AutoNation Sandton",
+    "location": "Sandton, GP",
+    "listed": "2026-03-03",
+    "images": [
+      "https://picsum.photos/seed/104/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:00:41.746242+00:00"
+  },
+  {
+    "id": "AC-2024127",
+    "make": "Mazda",
+    "model": "CX-30",
+    "year": 2022,
+    "price": 767000,
+    "mileage": 129700,
+    "transmission": "Manual",
+    "fuel": "Electric",
+    "color": "Ocean Blue",
+    "dealer": "CarHub Rosebank",
+    "location": "Pretoria, GP",
+    "listed": "2026-03-03",
+    "images": [
+      "https://picsum.photos/seed/127/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:01:57.537205+00:00"
+  },
+  {
+    "id": "AC-2024185",
+    "make": "Ford",
+    "model": "EcoSport",
+    "year": 2016,
+    "price": 549000,
+    "mileage": 80600,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Champagne Gold",
+    "dealer": "DriveZone Motors",
+    "location": "Pretoria, GP",
+    "listed": "2026-03-02",
+    "images": [
+      "https://picsum.photos/seed/125/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:01:57.609342+00:00"
+  },
+  {
+    "id": "AC-2024140",
+    "make": "Land Rover",
+    "model": "Freelander",
+    "year": 2022,
+    "price": 997000,
+    "mileage": 166000,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Graphite Grey",
+    "dealer": "City AutoHouse",
+    "location": "Centurion, GP",
+    "listed": "2026-03-01",
+    "images": [
+      "https://picsum.photos/seed/110/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:01:57.677272+00:00"
+  },
+  {
+    "id": "AC-2024218",
+    "make": "Volkswagen",
+    "model": "Up!",
+    "year": 2019,
+    "price": 661000,
+    "mileage": 66000,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Champagne Gold",
+    "dealer": "CarHub Rosebank",
+    "location": "Midrand, GP",
+    "listed": "2026-03-01",
+    "images": [
+      "https://picsum.photos/seed/128/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:01:57.750624+00:00"
+  },
+  {
+    "id": "AC-2024122",
+    "make": "Honda",
+    "model": "ZR-V",
+    "year": 2022,
+    "price": 355000,
+    "mileage": 24200,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Silver Metallic",
+    "dealer": "FastLane Cars",
+    "location": "Sandton, GP",
+    "listed": "2026-02-28",
+    "images": [
+      "https://picsum.photos/seed/122/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:01:57.831259+00:00"
+  },
+  {
+    "id": "AC-2024128",
+    "make": "Porsche",
+    "model": "Taycan",
+    "year": 2025,
+    "price": 780000,
+    "mileage": 46000,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Burnt Orange",
+    "dealer": "Elite Drive",
+    "location": "Rosebank, GP",
+    "listed": "2026-02-28",
+    "images": [
+      "https://picsum.photos/seed/128/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:01:57.910543+00:00"
+  },
+  {
+    "id": "AC-2024143",
+    "make": "Ford",
+    "model": "Kuga",
+    "year": 2023,
+    "price": 306000,
+    "mileage": 156200,
+    "transmission": "Manual",
+    "fuel": "Diesel",
+    "color": "Pearl White",
+    "dealer": "Elite Drive",
+    "location": "Centurion, GP",
+    "listed": "2026-02-27",
+    "images": [
+      "https://picsum.photos/seed/113/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:01:57.996004+00:00"
+  },
+  {
+    "id": "AC-2024167",
+    "make": "Volvo",
+    "model": "XC60",
+    "year": 2017,
+    "price": 231000,
+    "mileage": 138000,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Pearl White",
+    "dealer": "Elite Drive",
+    "location": "Roodepoort, GP",
+    "listed": "2026-02-27",
+    "images": [
+      "https://picsum.photos/seed/107/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:01:58.084459+00:00"
+  },
+  {
+    "id": "AC-2024135",
+    "make": "Honda",
+    "model": "CR-V",
+    "year": 2020,
+    "price": 843000,
+    "mileage": 163200,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Champagne Gold",
+    "dealer": "TopGear Motors",
+    "location": "Centurion, GP",
+    "listed": "2026-02-26",
+    "images": [
+      "https://picsum.photos/seed/105/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:01:58.163586+00:00"
+  },
+  {
+    "id": "AC-2024151",
+    "make": "Hyundai",
+    "model": "Venue",
+    "year": 2017,
+    "price": 461000,
+    "mileage": 157100,
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "color": "Silver Metallic",
+    "dealer": "CarHub Rosebank",
+    "location": "Midrand, GP",
+    "listed": "2026-02-26",
+    "images": [
+      "https://picsum.photos/seed/121/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:01:58.234606+00:00"
+  },
+  {
+    "id": "AC-2024178",
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "year": 2024,
+    "price": 125000,
+    "mileage": 118400,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Champagne Gold",
+    "dealer": "The Car Emporium",
+    "location": "Boksburg, GP",
+    "listed": "2026-02-26",
+    "images": [
+      "https://picsum.photos/seed/118/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:01:58.311890+00:00"
+  },
+  {
+    "id": "AC-2024111",
+    "make": "Mazda",
+    "model": "CX-60",
+    "year": 2024,
+    "price": 564000,
+    "mileage": 69200,
+    "transmission": "Automatic",
+    "fuel": "Electric",
+    "color": "Champagne Gold",
+    "dealer": "Wheels & Deals",
+    "location": "Roodepoort, GP",
+    "listed": "2026-02-25",
+    "images": [
+      "https://picsum.photos/seed/111/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:01:58.381576+00:00"
+  },
+  {
+    "id": "AC-2024190",
+    "make": "Jeep",
+    "model": "Cherokee",
+    "year": 2016,
+    "price": 383000,
+    "mileage": 52200,
+    "transmission": "Manual",
+    "fuel": "Hybrid",
+    "color": "Graphite Grey",
+    "dealer": "CarHub Rosebank",
+    "location": "Sandton, GP",
+    "listed": "2026-02-25",
+    "images": [
+      "https://picsum.photos/seed/100/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:00.284263+00:00"
+  },
+  {
+    "id": "AC-2024184",
+    "make": "Hyundai",
+    "model": "Venue",
+    "year": 2020,
+    "price": 279000,
+    "mileage": 50200,
+    "transmission": "Automatic",
+    "fuel": "Electric",
+    "color": "Burnt Orange",
+    "dealer": "The Car Emporium",
+    "location": "Boksburg, GP",
+    "listed": "2026-02-23",
+    "images": [
+      "https://picsum.photos/seed/124/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:00.359877+00:00"
+  },
+  {
+    "id": "AC-2024191",
+    "make": "Volkswagen",
+    "model": "Up!",
+    "year": 2019,
+    "price": 373000,
+    "mileage": 63800,
+    "transmission": "Automatic",
+    "fuel": "Hybrid",
+    "color": "Burnt Orange",
+    "dealer": "CarHub Rosebank",
+    "location": "Roodepoort, GP",
+    "listed": "2026-02-23",
+    "images": [
+      "https://picsum.photos/seed/101/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:00.412057+00:00"
+  },
+  {
+    "id": "AC-2024207",
+    "make": "Porsche",
+    "model": "Cayenne",
+    "year": 2022,
+    "price": 700000,
+    "mileage": 160200,
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "color": "Champagne Gold",
+    "dealer": "CarHub Rosebank",
+    "location": "Boksburg, GP",
+    "listed": "2026-02-23",
+    "images": [
+      "https://picsum.photos/seed/117/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:00.495853+00:00"
+  },
+  {
+    "id": "AC-2024134",
+    "make": "Honda",
+    "model": "Accord",
+    "year": 2023,
+    "price": 662000,
+    "mileage": 116300,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Graphite Grey",
+    "dealer": "PremiumWheels SA",
+    "location": "Cape Town, WC",
+    "listed": "2026-02-22",
+    "images": [
+      "https://picsum.photos/seed/104/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:00.572213+00:00"
+  },
+  {
+    "id": "AC-2024186",
+    "make": "Hyundai",
+    "model": "Tucson",
+    "year": 2024,
+    "price": 122000,
+    "mileage": 177700,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Desert Sand",
+    "dealer": "City AutoHouse",
+    "location": "Rosebank, GP",
+    "listed": "2026-02-21",
+    "images": [
+      "https://picsum.photos/seed/126/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:00.656911+00:00"
+  },
+  {
+    "id": "AC-2024199",
+    "make": "Volvo",
+    "model": "V40",
+    "year": 2021,
+    "price": 989000,
+    "mileage": 167100,
+    "transmission": "Manual",
+    "fuel": "Diesel",
+    "color": "Pearl White",
+    "dealer": "FastLane Cars",
+    "location": "Randburg, GP",
+    "listed": "2026-02-21",
+    "images": [
+      "https://picsum.photos/seed/109/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:00.742602+00:00"
+  },
+  {
+    "id": "AC-2024106",
+    "make": "Jeep",
+    "model": "Wrangler",
+    "year": 2019,
+    "price": 847000,
+    "mileage": 168300,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Graphite Grey",
+    "dealer": "Wheels & Deals",
+    "location": "Rosebank, GP",
+    "listed": "2026-02-20",
+    "images": [
+      "https://picsum.photos/seed/106/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:00.824061+00:00"
+  },
+  {
+    "id": "AC-2024120",
+    "make": "Nissan",
+    "model": "Qashqai",
+    "year": 2017,
+    "price": 724000,
+    "mileage": 55600,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Ocean Blue",
+    "dealer": "PremiumWheels SA",
+    "location": "Pretoria, GP",
+    "listed": "2026-02-20",
+    "images": [
+      "https://picsum.photos/seed/120/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:00.886749+00:00"
+  },
+  {
+    "id": "AC-2024149",
+    "make": "Porsche",
+    "model": "911",
+    "year": 2017,
+    "price": 634000,
+    "mileage": 109600,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Forest Green",
+    "dealer": "TopGear Motors",
+    "location": "Centurion, GP",
+    "listed": "2026-02-20",
+    "images": [
+      "https://picsum.photos/seed/119/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:00.947374+00:00"
+  },
+  {
+    "id": "AC-2024192",
+    "make": "Kia",
+    "model": "Sportage",
+    "year": 2018,
+    "price": 566000,
+    "mileage": 102000,
+    "transmission": "Automatic",
+    "fuel": "Electric",
+    "color": "Midnight Black",
+    "dealer": "Elite Drive",
+    "location": "Sandton, GP",
+    "listed": "2026-02-20",
+    "images": [
+      "https://picsum.photos/seed/102/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:01.027212+00:00"
+  },
+  {
+    "id": "AC-2024205",
+    "make": "BMW",
+    "model": "X5",
+    "year": 2020,
+    "price": 214000,
+    "mileage": 164000,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Pearl White",
+    "dealer": "The Car Emporium",
+    "location": "Randburg, GP",
+    "listed": "2026-02-19",
+    "images": [
+      "https://picsum.photos/seed/115/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:01.104004+00:00"
+  },
+  {
+    "id": "AC-2024146",
+    "make": "Volkswagen",
+    "model": "Golf",
+    "year": 2017,
+    "price": 952000,
+    "mileage": 82400,
+    "transmission": "Manual",
+    "fuel": "Diesel",
+    "color": "Racing Red",
+    "dealer": "TopGear Motors",
+    "location": "Roodepoort, GP",
+    "listed": "2026-02-18",
+    "images": [
+      "https://picsum.photos/seed/116/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:02.892981+00:00"
+  },
+  {
+    "id": "AC-2024183",
+    "make": "Volkswagen",
+    "model": "Passat",
+    "year": 2017,
+    "price": 655000,
+    "mileage": 17700,
+    "transmission": "Manual",
+    "fuel": "Hybrid",
+    "color": "Midnight Black",
+    "dealer": "DriveZone Motors",
+    "location": "Randburg, GP",
+    "listed": "2026-02-18",
+    "images": [
+      "https://picsum.photos/seed/123/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:02.974862+00:00"
+  },
+  {
+    "id": "AC-2024138",
+    "make": "BMW",
+    "model": "X5",
+    "year": 2017,
+    "price": 470000,
+    "mileage": 177800,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Burnt Orange",
+    "dealer": "Wheels & Deals",
+    "location": "Durban, KZN",
+    "listed": "2026-02-16",
+    "images": [
+      "https://picsum.photos/seed/108/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:03.055652+00:00"
+  },
+  {
+    "id": "AC-2024152",
+    "make": "Nissan",
+    "model": "Leaf",
+    "year": 2023,
+    "price": 83000,
+    "mileage": 119000,
+    "transmission": "Manual",
+    "fuel": "Diesel",
+    "color": "Silver Metallic",
+    "dealer": "CarHub Rosebank",
+    "location": "Rosebank, GP",
+    "listed": "2026-02-16",
+    "images": [
+      "https://picsum.photos/seed/122/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:03.135618+00:00"
+  },
+  {
+    "id": "AC-2024155",
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2025,
+    "price": 556000,
+    "mileage": 52100,
+    "transmission": "Manual",
+    "fuel": "Hybrid",
+    "color": "Pearl White",
+    "dealer": "DriveZone Motors",
+    "location": "Pretoria, GP",
+    "listed": "2026-02-16",
+    "images": [
+      "https://picsum.photos/seed/125/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:03.212911+00:00"
+  },
+  {
+    "id": "AC-2024133",
+    "make": "Kia",
+    "model": "Picanto",
+    "year": 2025,
+    "price": 914000,
+    "mileage": 91200,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Graphite Grey",
+    "dealer": "Wheels & Deals",
+    "location": "Pretoria, GP",
+    "listed": "2026-02-15",
+    "images": [
+      "https://picsum.photos/seed/103/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:03.296139+00:00"
+  },
+  {
+    "id": "AC-2024137",
+    "make": "Jeep",
+    "model": "Wrangler",
+    "year": 2018,
+    "price": 855000,
+    "mileage": 32000,
+    "transmission": "Manual",
+    "fuel": "Diesel",
+    "color": "Pearl White",
+    "dealer": "AutoNation Sandton",
+    "location": "Boksburg, GP",
+    "listed": "2026-02-15",
+    "images": [
+      "https://picsum.photos/seed/107/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:03.364016+00:00"
+  },
+  {
+    "id": "AC-2024170",
+    "make": "Volvo",
+    "model": "XC40",
+    "year": 2021,
+    "price": 982000,
+    "mileage": 136300,
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "color": "Ocean Blue",
+    "dealer": "City AutoHouse",
+    "location": "Centurion, GP",
+    "listed": "2026-02-14",
+    "images": [
+      "https://picsum.photos/seed/110/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:03.441524+00:00"
+  },
+  {
+    "id": "AC-2024112",
+    "make": "Volvo",
+    "model": "V40",
+    "year": 2018,
+    "price": 435000,
+    "mileage": 122200,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Desert Sand",
+    "dealer": "Elite Drive",
+    "location": "Midrand, GP",
+    "listed": "2026-02-12",
+    "images": [
+      "https://picsum.photos/seed/112/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:03.512955+00:00"
+  },
+  {
+    "id": "AC-2024188",
+    "make": "Honda",
+    "model": "CR-V",
+    "year": 2025,
+    "price": 723000,
+    "mileage": 55400,
+    "transmission": "Manual",
+    "fuel": "Electric",
+    "color": "Champagne Gold",
+    "dealer": "PremiumWheels SA",
+    "location": "Midrand, GP",
+    "listed": "2026-02-12",
+    "images": [
+      "https://picsum.photos/seed/128/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:03.585654+00:00"
+  },
+  {
+    "id": "AC-2024100",
+    "make": "Audi",
+    "model": "A3",
+    "year": 2022,
+    "price": 470000,
+    "mileage": 143100,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Burnt Orange",
+    "dealer": "Wheels & Deals",
+    "location": "Boksburg, GP",
+    "listed": "2026-02-11",
+    "images": [
+      "https://picsum.photos/seed/100/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:03.667365+00:00"
+  },
+  {
+    "id": "AC-2024141",
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2022,
+    "price": 715000,
+    "mileage": 84400,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Ocean Blue",
+    "dealer": "AutoNation Sandton",
+    "location": "Centurion, GP",
+    "listed": "2026-02-11",
+    "images": [
+      "https://picsum.photos/seed/111/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:03.746763+00:00"
+  },
+  {
+    "id": "AC-2024164",
+    "make": "Land Rover",
+    "model": "Defender",
+    "year": 2025,
+    "price": 237000,
+    "mileage": 73200,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Racing Red",
+    "dealer": "FastLane Cars",
+    "location": "Boksburg, GP",
+    "listed": "2026-02-11",
+    "images": [
+      "https://picsum.photos/seed/104/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:05.587721+00:00"
+  },
+  {
+    "id": "AC-2024177",
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2023,
+    "price": 341000,
+    "mileage": 43700,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Silver Metallic",
+    "dealer": "The Car Emporium",
+    "location": "Randburg, GP",
+    "listed": "2026-02-11",
+    "images": [
+      "https://picsum.photos/seed/117/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:05.666442+00:00"
+  },
+  {
+    "id": "AC-2024119",
+    "make": "Ford",
+    "model": "EcoSport",
+    "year": 2019,
+    "price": 192000,
+    "mileage": 61400,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Silver Metallic",
+    "dealer": "City AutoHouse",
+    "location": "Roodepoort, GP",
+    "listed": "2026-02-10",
+    "images": [
+      "https://picsum.photos/seed/119/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:05.736507+00:00"
+  },
+  {
+    "id": "AC-2024219",
+    "make": "Volkswagen",
+    "model": "T-Roc",
+    "year": 2016,
+    "price": 921000,
+    "mileage": 182200,
+    "transmission": "Automatic",
+    "fuel": "Electric",
+    "color": "Burnt Orange",
+    "dealer": "DriveZone Motors",
+    "location": "Randburg, GP",
+    "listed": "2026-02-10",
+    "images": [
+      "https://picsum.photos/seed/129/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:05.817223+00:00"
+  },
+  {
+    "id": "AC-2024101",
+    "make": "Ford",
+    "model": "EcoSport",
+    "year": 2019,
+    "price": 822000,
+    "mileage": 197500,
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "color": "Ocean Blue",
+    "dealer": "DriveZone Motors",
+    "location": "Boksburg, GP",
+    "listed": "2026-02-09",
+    "images": [
+      "https://picsum.photos/seed/101/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:05.883837+00:00"
+  },
+  {
+    "id": "AC-2024105",
+    "make": "Ford",
+    "model": "Puma",
+    "year": 2018,
+    "price": 779000,
+    "mileage": 131100,
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "color": "Pearl White",
+    "dealer": "TopGear Motors",
+    "location": "Cape Town, WC",
+    "listed": "2026-02-09",
+    "images": [
+      "https://picsum.photos/seed/105/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:05.959118+00:00"
+  },
+  {
+    "id": "AC-2024181",
+    "make": "Volvo",
+    "model": "C40",
+    "year": 2024,
+    "price": 624000,
+    "mileage": 184100,
+    "transmission": "Manual",
+    "fuel": "Electric",
+    "color": "Graphite Grey",
+    "dealer": "Elite Drive",
+    "location": "Boksburg, GP",
+    "listed": "2026-02-09",
+    "images": [
+      "https://picsum.photos/seed/121/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:06.038479+00:00"
+  },
+  {
+    "id": "AC-2024214",
+    "make": "Land Rover",
+    "model": "Defender",
+    "year": 2021,
+    "price": 831000,
+    "mileage": 24200,
+    "transmission": "Automatic",
+    "fuel": "Electric",
+    "color": "Champagne Gold",
+    "dealer": "City AutoHouse",
+    "location": "Centurion, GP",
+    "listed": "2026-02-09",
+    "images": [
+      "https://picsum.photos/seed/124/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:06.112889+00:00"
+  },
+  {
+    "id": "AC-2024114",
+    "make": "Volvo",
+    "model": "C40",
+    "year": 2018,
+    "price": 659000,
+    "mileage": 150700,
+    "transmission": "Manual",
+    "fuel": "Hybrid",
+    "color": "Silver Metallic",
+    "dealer": "DriveZone Motors",
+    "location": "Durban, KZN",
+    "listed": "2026-02-08",
+    "images": [
+      "https://picsum.photos/seed/114/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:06.185673+00:00"
+  },
+  {
+    "id": "AC-2024169",
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "year": 2022,
+    "price": 604000,
+    "mileage": 136000,
+    "transmission": "Manual",
+    "fuel": "Diesel",
+    "color": "Graphite Grey",
+    "dealer": "The Car Emporium",
+    "location": "Centurion, GP",
+    "listed": "2026-02-08",
+    "images": [
+      "https://picsum.photos/seed/109/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:06.255634+00:00"
+  },
+  {
+    "id": "AC-2024196",
+    "make": "BMW",
+    "model": "3 Series",
+    "year": 2019,
+    "price": 373000,
+    "mileage": 100600,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Midnight Black",
+    "dealer": "FastLane Cars",
+    "location": "Midrand, GP",
+    "listed": "2026-02-08",
+    "images": [
+      "https://picsum.photos/seed/106/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:06.317037+00:00"
+  },
+  {
+    "id": "AC-2024217",
+    "make": "Toyota",
+    "model": "Yaris",
+    "year": 2019,
+    "price": 830000,
+    "mileage": 69400,
+    "transmission": "Manual",
+    "fuel": "Diesel",
+    "color": "Forest Green",
+    "dealer": "DriveZone Motors",
+    "location": "Rosebank, GP",
+    "listed": "2026-02-07",
+    "images": [
+      "https://picsum.photos/seed/127/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:06.393959+00:00"
+  },
+  {
+    "id": "AC-2024175",
+    "make": "Land Rover",
+    "model": "Range Rover",
+    "year": 2019,
+    "price": 250000,
+    "mileage": 137100,
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "color": "Racing Red",
+    "dealer": "CarHub Rosebank",
+    "location": "Randburg, GP",
+    "listed": "2026-02-06",
+    "images": [
+      "https://picsum.photos/seed/115/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:08.338284+00:00"
+  },
+  {
+    "id": "AC-2024173",
+    "make": "Hyundai",
+    "model": "Venue",
+    "year": 2018,
+    "price": 334000,
+    "mileage": 151500,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Midnight Black",
+    "dealer": "City AutoHouse",
+    "location": "Centurion, GP",
+    "listed": "2026-02-05",
+    "images": [
+      "https://picsum.photos/seed/113/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:08.422848+00:00"
+  },
+  {
+    "id": "AC-2024116",
+    "make": "Kia",
+    "model": "Sportage",
+    "year": 2024,
+    "price": 185000,
+    "mileage": 99100,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Burnt Orange",
+    "dealer": "DriveZone Motors",
+    "location": "Centurion, GP",
+    "listed": "2026-02-04",
+    "images": [
+      "https://picsum.photos/seed/116/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:08.507221+00:00"
+  },
+  {
+    "id": "AC-2024148",
+    "make": "Audi",
+    "model": "A3",
+    "year": 2019,
+    "price": 158000,
+    "mileage": 113000,
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "color": "Silver Metallic",
+    "dealer": "FastLane Cars",
+    "location": "Boksburg, GP",
+    "listed": "2026-02-04",
+    "images": [
+      "https://picsum.photos/seed/118/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:08.574911+00:00"
+  },
+  {
+    "id": "AC-2024182",
+    "make": "Porsche",
+    "model": "Panamera",
+    "year": 2025,
+    "price": 683000,
+    "mileage": 9100,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Burnt Orange",
+    "dealer": "Wheels & Deals",
+    "location": "Centurion, GP",
+    "listed": "2026-02-04",
+    "images": [
+      "https://picsum.photos/seed/122/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:08.664625+00:00"
+  },
+  {
+    "id": "AC-2024107",
+    "make": "BMW",
+    "model": "3 Series",
+    "year": 2020,
+    "price": 607000,
+    "mileage": 130600,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Midnight Black",
+    "dealer": "PremiumWheels SA",
+    "location": "Sandton, GP",
+    "listed": "2026-02-03",
+    "images": [
+      "https://picsum.photos/seed/107/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:08.745564+00:00"
+  },
+  {
+    "id": "AC-2024123",
+    "make": "Porsche",
+    "model": "Taycan",
+    "year": 2017,
+    "price": 605000,
+    "mileage": 25700,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Racing Red",
+    "dealer": "CarHub Rosebank",
+    "location": "Randburg, GP",
+    "listed": "2026-02-03",
+    "images": [
+      "https://picsum.photos/seed/123/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:08.826186+00:00"
+  },
+  {
+    "id": "AC-2024150",
+    "make": "Hyundai",
+    "model": "Elantra",
+    "year": 2025,
+    "price": 681000,
+    "mileage": 24500,
+    "transmission": "Manual",
+    "fuel": "Electric",
+    "color": "Forest Green",
+    "dealer": "DriveZone Motors",
+    "location": "Pretoria, GP",
+    "listed": "2026-02-03",
+    "images": [
+      "https://picsum.photos/seed/120/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:08.907679+00:00"
+  },
+  {
+    "id": "AC-2024156",
+    "make": "Volvo",
+    "model": "XC40",
+    "year": 2021,
+    "price": 286000,
+    "mileage": 9200,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Silver Metallic",
+    "dealer": "PremiumWheels SA",
+    "location": "Boksburg, GP",
+    "listed": "2026-02-03",
+    "images": [
+      "https://picsum.photos/seed/126/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:08.977813+00:00"
+  },
+  {
+    "id": "AC-2024125",
+    "make": "Toyota",
+    "model": "Hilux",
+    "year": 2023,
+    "price": 519000,
+    "mileage": 21400,
+    "transmission": "Automatic",
+    "fuel": "Electric",
+    "color": "Racing Red",
+    "dealer": "DriveZone Motors",
+    "location": "Roodepoort, GP",
+    "listed": "2026-01-31",
+    "images": [
+      "https://picsum.photos/seed/125/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:09.055783+00:00"
+  },
+  {
+    "id": "AC-2024142",
+    "make": "Land Rover",
+    "model": "Discovery",
+    "year": 2020,
+    "price": 179000,
+    "mileage": 22500,
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "color": "Desert Sand",
+    "dealer": "DriveZone Motors",
+    "location": "Cape Town, WC",
+    "listed": "2026-01-31",
+    "images": [
+      "https://picsum.photos/seed/112/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:09.137684+00:00"
+  },
+  {
+    "id": "AC-2024200",
+    "make": "Kia",
+    "model": "Sportage",
+    "year": 2019,
+    "price": 90000,
+    "mileage": 109000,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Forest Green",
+    "dealer": "City AutoHouse",
+    "location": "Centurion, GP",
+    "listed": "2026-01-31",
+    "images": [
+      "https://picsum.photos/seed/110/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:09.219912+00:00"
+  },
+  {
+    "id": "AC-2024213",
+    "make": "Honda",
+    "model": "Accord",
+    "year": 2022,
+    "price": 714000,
+    "mileage": 7700,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Midnight Black",
+    "dealer": "Elite Drive",
+    "location": "Randburg, GP",
+    "listed": "2026-01-31",
+    "images": [
+      "https://picsum.photos/seed/123/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:11.142536+00:00"
+  },
+  {
+    "id": "AC-2024144",
+    "make": "Ford",
+    "model": "Fiesta",
+    "year": 2020,
+    "price": 210000,
+    "mileage": 100800,
+    "transmission": "Manual",
+    "fuel": "Hybrid",
+    "color": "Champagne Gold",
+    "dealer": "PremiumWheels SA",
+    "location": "Randburg, GP",
+    "listed": "2026-01-30",
+    "images": [
+      "https://picsum.photos/seed/114/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:11.216178+00:00"
+  },
+  {
+    "id": "AC-2024147",
+    "make": "Volkswagen",
+    "model": "Up!",
+    "year": 2024,
+    "price": 949000,
+    "mileage": 132100,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Silver Metallic",
+    "dealer": "Wheels & Deals",
+    "location": "Rosebank, GP",
+    "listed": "2026-01-30",
+    "images": [
+      "https://picsum.photos/seed/117/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:11.295238+00:00"
+  },
+  {
+    "id": "AC-2024194",
+    "make": "Ford",
+    "model": "Focus",
+    "year": 2017,
+    "price": 766000,
+    "mileage": 40300,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Ocean Blue",
+    "dealer": "Wheels & Deals",
+    "location": "Centurion, GP",
+    "listed": "2026-01-29",
+    "images": [
+      "https://picsum.photos/seed/104/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:11.363112+00:00"
+  },
+  {
+    "id": "AC-2024198",
+    "make": "Mazda",
+    "model": "CX-60",
+    "year": 2017,
+    "price": 398000,
+    "mileage": 189800,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Champagne Gold",
+    "dealer": "Elite Drive",
+    "location": "Durban, KZN",
+    "listed": "2026-01-29",
+    "images": [
+      "https://picsum.photos/seed/108/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:11.432938+00:00"
+  },
+  {
+    "id": "AC-2024139",
+    "make": "Nissan",
+    "model": "Navara",
+    "year": 2024,
+    "price": 184000,
+    "mileage": 94600,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Racing Red",
+    "dealer": "TopGear Motors",
+    "location": "Boksburg, GP",
+    "listed": "2026-01-28",
+    "images": [
+      "https://picsum.photos/seed/109/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:11.509013+00:00"
+  },
+  {
+    "id": "AC-2024102",
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2024,
+    "price": 510000,
+    "mileage": 22400,
+    "transmission": "Manual",
+    "fuel": "Hybrid",
+    "color": "Graphite Grey",
+    "dealer": "The Car Emporium",
+    "location": "Durban, KZN",
+    "listed": "2026-01-27",
+    "images": [
+      "https://picsum.photos/seed/102/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:11.591039+00:00"
+  },
+  {
+    "id": "AC-2024131",
+    "make": "Nissan",
+    "model": "Juke",
+    "year": 2016,
+    "price": 971000,
+    "mileage": 12600,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Champagne Gold",
+    "dealer": "The Car Emporium",
+    "location": "Cape Town, WC",
+    "listed": "2026-01-27",
+    "images": [
+      "https://picsum.photos/seed/101/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:11.674982+00:00"
+  },
+  {
+    "id": "AC-2024189",
+    "make": "Kia",
+    "model": "Carnival",
+    "year": 2018,
+    "price": 558000,
+    "mileage": 157900,
+    "transmission": "Automatic",
+    "fuel": "Hybrid",
+    "color": "Silver Metallic",
+    "dealer": "CarHub Rosebank",
+    "location": "Cape Town, WC",
+    "listed": "2026-01-27",
+    "images": [
+      "https://picsum.photos/seed/129/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:11.758318+00:00"
+  },
+  {
+    "id": "AC-2024171",
+    "make": "Audi",
+    "model": "e-tron",
+    "year": 2018,
+    "price": 875000,
+    "mileage": 108500,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Burnt Orange",
+    "dealer": "CarHub Rosebank",
+    "location": "Randburg, GP",
+    "listed": "2026-01-26",
+    "images": [
+      "https://picsum.photos/seed/111/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:11.831345+00:00"
+  },
+  {
+    "id": "AC-2024187",
+    "make": "Ford",
+    "model": "Kuga",
+    "year": 2020,
+    "price": 455000,
+    "mileage": 147300,
+    "transmission": "Manual",
+    "fuel": "Hybrid",
+    "color": "Desert Sand",
+    "dealer": "DriveZone Motors",
+    "location": "Midrand, GP",
+    "listed": "2026-01-26",
+    "images": [
+      "https://picsum.photos/seed/127/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:11.911367+00:00"
+  },
+  {
+    "id": "AC-2024130",
+    "make": "Ford",
+    "model": "Fiesta",
+    "year": 2019,
+    "price": 398000,
+    "mileage": 110700,
+    "transmission": "Manual",
+    "fuel": "Diesel",
+    "color": "Silver Metallic",
+    "dealer": "The Car Emporium",
+    "location": "Randburg, GP",
+    "listed": "2026-01-25",
+    "images": [
+      "https://picsum.photos/seed/100/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:11.971897+00:00"
+  },
+  {
+    "id": "AC-2024195",
+    "make": "Mazda",
+    "model": "Mazda3",
+    "year": 2023,
+    "price": 844000,
+    "mileage": 23900,
+    "transmission": "Manual",
+    "fuel": "Hybrid",
+    "color": "Desert Sand",
+    "dealer": "City AutoHouse",
+    "location": "Midrand, GP",
+    "listed": "2026-01-25",
+    "images": [
+      "https://picsum.photos/seed/105/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:13.826680+00:00"
+  },
+  {
+    "id": "AC-2024206",
+    "make": "Nissan",
+    "model": "Navara",
+    "year": 2024,
+    "price": 622000,
+    "mileage": 22500,
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "color": "Forest Green",
+    "dealer": "City AutoHouse",
+    "location": "Centurion, GP",
+    "listed": "2026-01-25",
+    "images": [
+      "https://picsum.photos/seed/116/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:13.902129+00:00"
+  },
+  {
+    "id": "AC-2024113",
+    "make": "BMW",
+    "model": "X3",
+    "year": 2019,
+    "price": 298000,
+    "mileage": 156700,
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "color": "Racing Red",
+    "dealer": "DriveZone Motors",
+    "location": "Midrand, GP",
+    "listed": "2026-01-23",
+    "images": [
+      "https://picsum.photos/seed/113/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:13.962121+00:00"
+  },
+  {
+    "id": "AC-2024158",
+    "make": "Nissan",
+    "model": "Leaf",
+    "year": 2020,
+    "price": 763000,
+    "mileage": 48700,
+    "transmission": "Manual",
+    "fuel": "Diesel",
+    "color": "Silver Metallic",
+    "dealer": "AutoNation Sandton",
+    "location": "Rosebank, GP",
+    "listed": "2026-01-23",
+    "images": [
+      "https://picsum.photos/seed/128/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:14.036453+00:00"
+  },
+  {
+    "id": "AC-2024163",
+    "make": "Volvo",
+    "model": "V40",
+    "year": 2020,
+    "price": 936000,
+    "mileage": 87800,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Pearl White",
+    "dealer": "The Car Emporium",
+    "location": "Pretoria, GP",
+    "listed": "2026-01-23",
+    "images": [
+      "https://picsum.photos/seed/103/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:14.094710+00:00"
+  },
+  {
+    "id": "AC-2024212",
+    "make": "BMW",
+    "model": "1 Series",
+    "year": 2025,
+    "price": 316000,
+    "mileage": 88300,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Burnt Orange",
+    "dealer": "Wheels & Deals",
+    "location": "Durban, KZN",
+    "listed": "2026-01-23",
+    "images": [
+      "https://picsum.photos/seed/122/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:14.161934+00:00"
+  },
+  {
+    "id": "AC-2024108",
+    "make": "Ford",
+    "model": "Mustang",
+    "year": 2021,
+    "price": 474000,
+    "mileage": 178000,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Desert Sand",
+    "dealer": "The Car Emporium",
+    "location": "Durban, KZN",
+    "listed": "2026-01-22",
+    "images": [
+      "https://picsum.photos/seed/108/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:14.243446+00:00"
+  },
+  {
+    "id": "AC-2024145",
+    "make": "Volvo",
+    "model": "S60",
+    "year": 2018,
+    "price": 242000,
+    "mileage": 107800,
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "color": "Desert Sand",
+    "dealer": "CarHub Rosebank",
+    "location": "Sandton, GP",
+    "listed": "2026-01-22",
+    "images": [
+      "https://picsum.photos/seed/115/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:14.306650+00:00"
+  },
+  {
+    "id": "AC-2024126",
+    "make": "BMW",
+    "model": "3 Series",
+    "year": 2018,
+    "price": 441000,
+    "mileage": 28800,
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "color": "Racing Red",
+    "dealer": "Wheels & Deals",
+    "location": "Cape Town, WC",
+    "listed": "2026-01-20",
+    "images": [
+      "https://picsum.photos/seed/126/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:14.381409+00:00"
+  },
+  {
+    "id": "AC-2024166",
+    "make": "Audi",
+    "model": "A3",
+    "year": 2016,
+    "price": 539000,
+    "mileage": 132000,
+    "transmission": "Automatic",
+    "fuel": "Hybrid",
+    "color": "Ocean Blue",
+    "dealer": "TopGear Motors",
+    "location": "Randburg, GP",
+    "listed": "2026-01-20",
+    "images": [
+      "https://picsum.photos/seed/106/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:14.449701+00:00"
+  },
+  {
+    "id": "AC-2024180",
+    "make": "Audi",
+    "model": "A6",
+    "year": 2023,
+    "price": 680000,
+    "mileage": 192600,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "color": "Silver Metallic",
+    "dealer": "DriveZone Motors",
+    "location": "Pretoria, GP",
+    "listed": "2026-01-20",
+    "images": [
+      "https://picsum.photos/seed/120/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:14.523725+00:00"
+  },
+  {
+    "id": "AC-2024211",
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2020,
+    "price": 793000,
+    "mileage": 22900,
+    "transmission": "Manual",
+    "fuel": "Diesel",
+    "color": "Desert Sand",
+    "dealer": "CarHub Rosebank",
+    "location": "Pretoria, GP",
+    "listed": "2026-01-20",
+    "images": [
+      "https://picsum.photos/seed/121/600/400"
+    ],
+    "scraped_at": "2026-03-25T18:02:14.597688+00:00"
+  }
+]
